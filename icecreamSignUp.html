@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이스크림 메인</title>
+    <link rel="stylesheet" href="style/SignUp.css">
+    <link rel="stylesheet" href="style/icecreamhead.css">
+    <link rel="stylesheet" href="style/icecreamfoot.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="head-content">
+            <div class="mainlogo">
+                <a href="icecreammain.html">ICE-MALL</a>
+            </div>
+            <div class="search">
+                <form action="search.html" method="get" autocomplete="off">
+                    <input type="text" name="query" placeholder="검색어 입력하세요">
+                    <input type="submit" value="전송" id="searchBtn">
+                    <label for="searchBtn"><img src="img/dot.png"></label>
+                </form>
+            </div>
+            <div class="membership">
+                <div>
+                    <a href="#">
+                        <img src="img/join.png">
+                        <div>JOIN</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="icecreamlogin.html">                        
+                        <img src="img/login.png">
+                        <div>LOGIN</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="icecreamcart.html">
+                        <img src="img/cart.png">
+                        <div>CART</div>                       
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">성분&알러지</a></li>
+                <li><a href="#">민초관</a></li>
+                <li><a href="#">반민초관</a></li>
+                <li><a href="#">EVENT</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </div>
+    </div>    
+    <div class="main">
+        <h2>REGISTER</h2>
+        <form action="memberjoin.html" method="get" autocomplete="on">
+            <table class="signup">
+                <tr>
+                    <td>I D </td>
+                    <td>
+                        <input type="text" name="id" placeholder="ENTER ID">
+                    </td>
+                </tr>
+                <tr>
+                    <td>PassWord</td>
+                    <td>
+                        <input type="password" name="pw" placeholder="ENTER PW">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Confirm PassWord</td>
+                    <td>
+                        <input type="password" name="CP" placeholder="CONFIRM PW">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" name="name" placeholder="ENTER YOUR NAME">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Brith</td>
+                    <td name="Birth">
+                        <select name="year">
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                        </select>
+                        Y
+                        <select name="month">
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        M
+                        <select name="date">
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        D
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="text" name="mainaddr" placeholder="FRIST EMAIL">@
+                        <select name="addr">
+                            <option value="naver.com">naver.com</option>
+                            <option value="google.com">goole.com</option>
+                            <option value="daum.net">daum.net</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td name="Hobby">
+                        <div>
+                            <input type="checkbox"> 축구
+                        </div>
+                        <div><input type="checkbox"> 게임</div>
+                        <div><input type="checkbox"> 독서</div>
+                        <div><input type="checkbox"> 쇼핑</div>
+                        <div><input type="checkbox"> 미술</div>
+                        <div><input type="checkbox"> 개발</div>
+                        <div><input type="checkbox"> 영화</div>
+                        <div><input type="checkbox"> 코인</div>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="SUBMIT">
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>    
+        <div class="footer">
+            <div>
+                <p>상호명: (주)ICE-MALL</p>
+                <p>소새지 : 서울시 영등포구 선유로 57 이레빌딩 19F / A</p>
+                <p id="call">고객센터 : 1577-0001 [평일 09:00 ~ 18:00]</p>
+                <p>email : next007@iei.or.kr</p>
+            </div>
+        </div>
+    
+</body>
+</html>

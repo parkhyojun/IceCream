@@ -1,0 +1,74 @@
+.title>h1{
+    text-align: center;
+}
+td>img{
+    width: 200px;
+    height: 200px;
+}
+.cart-table{
+    text-align: center;
+}
+.cart-table table{
+    border-spacing: 0;
+}
+.cart-table th{
+    border-bottom: 3px solid #6E85B7;
+    border-top: 3px solid #6E85B7;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.title{
+    padding: 20px;
+}
+thead{
+    border: 1px solid #6E85B7;
+}
+thead>tr{
+    font-size: 20px;
+    border: 1px solid #6E85B7;
+}
+table{
+    margin: 0 auto;
+    width: 800px;
+}
+thead{
+    height: 40px;
+}
+tfoot>tr {
+    height: 90px;
+    text-align: right;
+}
+tfoot>tr>td{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+tbody tr>td{
+    border-bottom: 1px solid #ccc;
+}
+.price{
+    font-size: 22px;
+    font-weight: 900;
+    color: darkred;
+}
+#dil{
+    border-left: 1px solid #ccc;
+}
+.button-box{
+    margin: 30px;
+    text-align: center;
+    display: block;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border: 3px solid #6E85B7;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 15px;    
+    margin: 0;
+    padding: 0;
+}
+button:hover{
+    background-color: #6E85B7;
+    color: white;
+}
